@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/NoWayJose7/75498b1255861ebc3b0190e6d6a15b21/raw/2ed6da899dfaa084d3a5a8d3b2ef00e5e4daa4e8/center.js" async></script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="contact form example" name="description">
+
+
+    <title>Evaluation</title>
+</head>
+
+<body>
+    <h2 class="content-head is-center">Mentoring Evaluation</h2>
+
+
+    <aside>
+        <p>We would <em>love</em> to hear from you!</p>
+
+
+        <p>Please use the <b><em>Evaluation Form</em></b> to send a message.</p>
+    </aside>
+    <!-- START HERE -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://dl.dropbox.com/s/evg0au4u2dk9u63/pure-min.css?dl=0" rel="stylesheet">
+    <!-- Style The Contact Form How Ever You Prefer -->
+    <link href="https://dl.dropbox.com/s/pomybwqqf595xxs/style.css?dl=0" rel="stylesheet">
+
+    <form onsubmit="myButton.disabled = true; return true;" action="https://script.google.com/macros/s/AKfycbxo43pH5EivXV4oJYhNSnNxv1tmTlwNao1JbPlCs60KSKkDRZY/exec" class="pure-form pure-form-stacked" id="gform" method="post" name="gform">
+        <!-- change the form action to your script url -->
+
+
+        <fieldset class="pure-group">
+            <div style="float:left;width:100%;">
+                <label for="name">Enter Initials:</label>
+                <input id="name" name="Mentor" placeholder="Mentor">
+                <label for="name" style="padding-left: 2%;">Enter Initials:</label>
+                <input id="name" name="Mentee" placeholder="Mentee">
+            </div>
+	  <!--  <div style="float:left;width:100%;margin-top: 25px;">
+    		<label for="name" style="margin-right: 48px;">Email:</label>
+		<input id="name" name="Email" placeholder="Email">
+	    </div> -->
+        </fieldset>
+
+
+        <fieldset class="pure-group">
+            <div style="float:left;width:100%;">
+                <label for="Date" class="dt">Date of Session:</label>
+                <input class="dt" id="Date" name="Date" placeholder="MM/DD/YYYY" type="date">
+<div class="rg arri">
+                <label for="Start Time" class="rg ans">Start Time:
+                <input id="Start Time" name="STime" placeholder="" type="time"></label>
+                <label for="End Time" class="rg ans">End Time:
+                <input id="End Time" name="ETime" placeholder="" type="time"></label>
+    </div>
+                <label class="rg" for="Arrival">Did the student arrive on time:</label>
+
+			<div class="rg arri">
+                <label class="rg ans" for="radio-group--1">Yes
+                    <br>
+                    <input id="Arrival Time" name="Arrival" placeholder="" type="radio" value="Yes">
+                </label>
+                <label class="rg ans" for="radio-group--1">No
+                    <br>
+                    <input id="Arrival Time" name="Arrival" placeholder="" type="radio" value="No">
+                </label>
+			</div>
+            </div>
+        </fieldset>
+
+<div class="key">
+    <span>Key:</span>
+
+    <span> 1=Poor </span>
+    <span> 2=Fair </span>
+    <span> 3=Average </span>
+    <span> 4=Good </span>
+	<span> 5=Excellent </span>
+
+
+</div>
+
+
+
+
+
+
+
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <legend>Comfort level with:</legend>
+            <label class="rg ttl">Mentor:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CMentor" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CMentor" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CMentor" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CMentor" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CMentor" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CMentor" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Other Mentee:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CMentee" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CMentee" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CMentee" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CMentee" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CMentee" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CMentee" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Same-aged Peers:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CPeers" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CPeers" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CPeers" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CPeers" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CPeers" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CPeers" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">College Personnel:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CStaff" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CStaff" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CStaff" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CStaff" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="CStaff" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="CStaff" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <legend>Appearance</legend>
+            <label class="rg ttl">Eye Contact:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AEye" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AEye" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AEye" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AEye" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AEye" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AEye" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Attire:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AAttire" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AAttire" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AAttire" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AAttire" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AAttire" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AAttire" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Personal Hygiene:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AHygiene" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AHygiene" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AHygiene" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AHygiene" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AHygiene" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AHygiene" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <legend>Communication Skills:</legend>
+            <label class="rg ttl">Listens and Pay Attention:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="LPattern" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="LPattern" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="LPattern" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="LPattern" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="LPattern" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="LPattern" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Expresses Personal Needs:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="EPN" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="EPN" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="EPN" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="EPN" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="EPN" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="EPN" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Respects Rights and Privacy of Others:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="RPothers" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="RPothers" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="RPothers" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="RPothers" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="RPothers" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="RPothers" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Initiates Conversation:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="ICon" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="ICon" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="ICon" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="ICon" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="ICon" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="ICon" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Maintains Conversations:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="MCon" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="MCon" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="MCon" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="MCon" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="MCon" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="MCon" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <legend>Engagement in assigned task:</legend>
+            <label class="rg ttl">Follows Directions:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="FDirections" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="FDirections" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="FDirections" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="FDirections" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="FDirections" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="FDirections" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Accepting of Feedback:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AFeed" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AFeed" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AFeed" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AFeed" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="AFeed" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="AFeed" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Initiates new tasks:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="INewTask" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="INewTask" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="INewTask" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="INewTask" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="INewTask" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="INewTask" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Keeping Organized:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="KOrg" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="KOrg" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="KOrg" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="KOrg" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="KOrg" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="KOrg" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+	</fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <legend>Boundaries:</legend>
+            <label class="rg ttl">Personal Space:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="PSpace" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="PSpace" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="PSpace" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="PSpace" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="PSpace" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="PSpace" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Social Ettiquette:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="SEtiq" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="SEtiq" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="SEtiq" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="SEtiq" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="SEtiq" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="SEtiq" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+
+        </fieldset>
+
+
+        <fieldset class="pure-group" style="margin: 1px;">
+            <label class="rg ttl">Social Media:</label>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="SMedia" value="1" checked="">
+                    <span>1</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="SMedia" value="2" checked="">
+                    <span>2</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="SMedia" value="3" checked="">
+                    <span>3</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="SMedia" value="4" checked="">
+                    <span>4</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT1Y2PC" type="radio" name="SMedia" value="5" checked="">
+                    <span>5</span>
+                </label>
+            </div>
+            <div class="rdbut">
+                <label class="colour">
+                    <input id="option-AVGANT2Y2PC" type="radio" name="SMedia" value="N/A" checked="">
+                    <span>N/A</span>
+                </label>
+            </div>
+
+        </fieldset>
+
+
+<!--
+
+		<fieldset class="pure-group">
+			<label for="email"><em>Your</em> Email Address:</label> <input id="email" name="email" placeholder="your.name@email.com" required="" type="email" value=""> <span id="email-invalid" style="display:none">Must be a valid email address</span>
+		</fieldset>
+
+
+-->
+
+        <fieldset class="pure-group">
+            <label for="message">Comments:</label>
+
+            <textarea id="message" name="message" placeholder="Summary of mentoring session" rows="10" style="margin-top: 10px;"></textarea>
+        </fieldset>
+        <button class="button-success pure-button button-xlarge" name="myButton" id="button-success" style="margin-bottom: 30px;"><i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+    </form>
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+
+
+    <div id="thankyou_message" style="display:none;">
+        <h2><em>Thanks</em> for your submission!</h2>
+    </div>
+    <!-- Submit the Form to Google Using "AJAX"
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+    <script data-cfasync="false" src="https://cdn.rawgit.com/NoWayJose7/824bc954616b25812d260a11e28ffa3f/raw/e97f9512c366b1e5e1b6f9b64168df14d19da67a/form-submission-handler.js" type="text/javascript">
+    </script>
+    <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+    <!-- END -->
+
+</body>
+<script type="text/javascript">
+    var elem = document.querySelectorAll("a[href*='https://updog.co']");
+
+    while (elem[0]) {
+        elem[0].parentNode.removeChild(elem[0]);
+    }
+</script>
+
+</html>

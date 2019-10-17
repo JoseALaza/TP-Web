@@ -1,0 +1,98 @@
+body {
+  margin: 2em;
+}
+aside {
+    background: #1f8dd6; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 40%;
+}
+.ttl {
+  width: 12%;
+  text-align: left;
+}
+.rdbut {
+  margin: 0px;
+}
+
+.rdbut label {
+  float: left;
+  width: 50px;
+  margin: 4px;
+  background-color: #EFEFEF;
+  border: none;
+  overflow: auto;
+  display: inline;
+}
+
+.rdbut input:checked + span {
+  background-color: #404040;
+  color: #F7F7F7;
+}
+
+.rdbut label span {
+  text-align: center;
+  font-size: 15px;
+  padding: 3px 8px;
+  display: block;
+}
+
+.rdbut label input {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  visibility: hidden;
+}
+
+.rdbut .colour {
+  background-color: #1f8dd6;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px)  {
+
+	.ttl {
+		width:100%;
+	}
+
+	.rg {
+		float:none;
+	}
+
+	#name, #email {
+		width: 100%;
+	}
+	
+	.rdbut label {
+		width: 43px;
+	}
+
+}
